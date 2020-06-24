@@ -1,8 +1,8 @@
 {
-  "name": "codesandbox-vuepress",
+  "name": "codesandbox-vuepress-rtl_and_ltr",
   "version": "1.0.0",
-  "description": "VuePress starter template for CodeSandbox",
-  "author": "Victoria Bergquist",
+  "description": "Demo VuePress with rtl and ltr locales",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev",
@@ -10,9 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vicbergquist/codesandbox-vuepress"
+    "url": "https://github.com/https://codesandbox.io/s/github/seanpue/codesandbox-vuepress-rtl_and_ltr"
   },
   "devDependencies": {
     "vuepress": "^1.0.0"
+  },
+  "locales": {
+    "/": {
+      "lang": "en-US",
+      "title": "VuePress",
+      "description": "Vue-powered Static Site Generator"
+    },
+    "/ur/": {
+      "lang": "ur-IN",
+      "title": "ویو پریس",
+      "description": "ویو سے چلتا ہوا اسٹیٹک ویب سائٹ بنانےوالا "
+    }
   }
 }
